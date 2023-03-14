@@ -1,5 +1,5 @@
 <template>
-	<div> 
-		Test Login Page
+	<div>
+		Main Page
 	</div>
 </template>
