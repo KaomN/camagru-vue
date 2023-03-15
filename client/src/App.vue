@@ -5,7 +5,7 @@
 	export default {
 		components: {
 			Header,
-			Footer
+			Footer,
 		}
 	}
 </script>
@@ -13,7 +13,16 @@
 <template>
 	<v-app>
 		<Header />
-		<router-view></router-view>
+		<!-- Centering Views -->
+		<v-main>
+			<v-container fluid class="fill-height">
+				<v-row>
+					<v-col class="d-flex justify-center">
+						<router-view />
+					</v-col>
+				</v-row>
+			</v-container>
+		</v-main>
 		<Footer />
 	</v-app>
 </template>

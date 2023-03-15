@@ -1,7 +1,5 @@
 <template>
-	<v-main>
-		<v-container fluid>
-			<div>Page Not Found</div>
-		</v-container>
-	</v-main>
+	<div>
+		Page not found
+	</div>
 </template>

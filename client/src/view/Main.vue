@@ -1,7 +1,5 @@
 <template>
-	<v-main>
-		<v-container fluid>
-			<div>Main Page</div>
-		</v-container>
-	</v-main>
+	<div>
+		Main
+	</div>
 </template>

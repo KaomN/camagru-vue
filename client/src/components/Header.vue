@@ -1,6 +1,17 @@
+
+
+<!-- <script>
+	export default {
+		
+	}
+</script> -->
+
 <template>
 	<v-app-bar>
-		<v-toolbar-title>Camagru</v-toolbar-title>
+
+		<v-toolbar-title>
+			<router-link style="text-decoration: none; color: inherit;" to="/">Camagru</router-link>
+		</v-toolbar-title>
 		<v-spacer></v-spacer>
 		<!-- <v-btn to="/">Home</v-btn> -->
 		<v-btn to="/login">Login</v-btn>
@@ -13,3 +24,8 @@
 		</v-btn> -->
 	</v-app-bar>
 </template>
+
+
+<style>
+
+</style>
