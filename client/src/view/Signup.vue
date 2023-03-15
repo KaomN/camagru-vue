@@ -1,7 +1,7 @@
 <template>
 	<v-main>
 		<v-container fluid>
-			<div>Main Page</div>
+			<div>Signup</div>
 		</v-container>
 	</v-main>
 </template>
